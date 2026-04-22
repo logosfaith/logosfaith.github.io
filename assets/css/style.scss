@@ -11,3 +11,48 @@ body {
 a {
   color: #38bdf8;
 }
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #94a3b8;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h2 {
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 0.5rem;
+}
+
+.featured {
+  background: #020617;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.topics ul {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.topics li {
+  background: #1e293b;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
